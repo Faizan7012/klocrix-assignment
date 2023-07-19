@@ -116,21 +116,3 @@ document.getElementById('card').addEventListener('input',(e)=>{
     }
    
  })
-
-
- function pagechange(){
-    let name = document.getElementById('name').value.toString()
-    let card = document.getElementById('card').value.toString()
-    let month = document.getElementById('month').value.toString()
-    let year = document.getElementById('year').value.toString()
-    let cvv = document.getElementById('cvv').value.toString()
-
-    if(name !=='' && card.length == 16 && month.length == 2 && month!=='00' && month !=='0' && Number(month) < 13 && Number(year)>22 && year.length == 2 && cvv.length==3 ){
-        window.location.href = '/otp.html'
-
-    }
-    else{
-        alert('please enter correct details')
-    }
-
- }
