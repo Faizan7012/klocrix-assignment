@@ -1,0 +1,152 @@
+#parent{
+    display: flex;
+    gap: 50px;
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+    align-items: center;
+}
+
+img{
+    max-width: 40px;
+    mix-blend-mode: multiply;
+}
+#card1,#card2{
+    width: 300px;
+    height: 150px;
+    /* background-color: rgb(240, 106, 151); */
+    background-image: url(https://media.istockphoto.com/photos/valentines-day-pink-abstract-background-picture-id911750060?b=1&k=20&m=911750060&s=612x612&w=0&h=to3tA-SCbOfZ9di8ELhCjbAIvrBqf3t5DL-GxQ0es34=);
+    color:white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+#visa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#card2{
+    display: none;
+}
+
+strong{
+    font-size: 20px;
+}
+#form{
+    height: 150px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#form>div{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(217, 17, 84);
+}
+label{
+   color:rgb(215, 18, 51);
+   font-weight: 500;
+}
+
+#myc{
+    display: flex;
+    gap: 20px;
+}
+
+#myc input{
+    width: 110px;
+}
+
+#payment{
+    text-align: center;
+    margin-top: 100px;
+}
+.span{
+    color: rgb(243, 51, 83);
+    font-weight: 500;
+    font-size: 17px;
+}
+#date{
+    color: white;
+}
+button{
+    padding: 10px 40px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(240, 106, 151);
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+
+#cardno{
+    font-weight: 500;
+    letter-spacing: 6px;
+    font-size: 20px;
+}
+#nd{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.black{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+#cvvno{
+    width: 80%;
+    margin: auto;
+    height: 30px;
+    background-color:white;
+    color: black;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+    color: aliceblue;
+}
+
+#cardvalid{
+  margin-bottom: -20px;
+}
+
+@media (max-width:900px){
+#parent{
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+}
+#form{
+   width: 100%;
+   margin: auto;
+}
+input{
+    width: 300px;
+    margin: auto;
+}
+#myc input{
+    width: 50px;
+}
+label{
+    font-size: 12px;
+}
+}

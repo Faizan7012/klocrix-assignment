@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Card Page</title>
+</head>
+<body>
+    <div id="parent">
+        <div id="card1">
+             <div id="visa">
+                <img src="https://e7.pngegg.com/pngimages/865/547/png-clipart-rectangular-brown-and-black-sim-card-illustration-chip-pin-solutions-ltd-emv-payment-card-credit-card-chip-company-text.png" alt="pinimg" />
+                 <strong>VISA</strong>
+             </div>
+             <div>
+                <p id="cardno">•••• •••• •••• ••••</p>
+             </div>
+             <div id="nd">
+                 <p id="holdername">
+                    Card Holder Name
+                </p>
+                <div id="cardvalid">
+                    Valid Till<br />
+                    <p id="date"><span id="Emonth"></span><span id="Eyear"></span></p>
+                </div>
+             </div>
+        </div>
+        <div id="card2">
+             <div class="black"></div>
+             <div>
+                <p id="cvvno"></p>
+             </div>
+             <div>
+                <strong>VISA</strong>
+             </div>
+       </div>
+        <div id="form">
+                <div>
+                    <label >Card Holder Name :</label>
+                    <input id="name" type="text" placeholder="eg : Faizan Alam" >
+                </div>
+                <div>
+                    <label >Card No :</label>
+                    <input id="card" type="number" maxlength="16" placeholder="•••• •••• •••• ••••"  />
+                </div>
+                <div>
+                    <div id="myc">
+                        <div>
+                            <label >Expiry Month :</label>
+                            <input id="month" maxlength="2" type="text" placeholder="eg : 06" />
+                        </div>
+                        <div>
+                            <label >Expiry Year :</label>
+                            <input id="year" maxlength="2" type="text" placeholder="eg : 07" />
+                        </div>
+                        <div>
+                            <label >CVV No :</label>
+                            <input id="cvv" type="number" maxlength="3" placeholder="eg : 678"  />
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div id="payment">
+        <p id="amount">Total Payment : <span class="span">$4999</span></p>
+        <button>
+                PAY
+        </button>
+    </div>
+</body>
+</html>
+
+
+<script src="index.js">
+
+</script>
